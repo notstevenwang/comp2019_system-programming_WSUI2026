@@ -1,0 +1,17 @@
+# converse: simple program to show shell program interaction
+while true
+do
+        echo -n enter a word ' '
+        read inpt
+        if [ "$inpt" = "hi" ]
+        then
+                echo hi yourself
+                exit 0
+        fi
+        case $inpt in
+           stop | quit) exit 0;;
+           hello) echo pleased to meet you;;
+           *) echo $inpt"?"
+        esac
+done
+

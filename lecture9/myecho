@@ -1,0 +1,9 @@
+#sh or csh
+#script myecho
+
+echo $0 $1 $2 $3
+echo $argv[$1]
+
+echo $argv[$*]
+
+echo $#

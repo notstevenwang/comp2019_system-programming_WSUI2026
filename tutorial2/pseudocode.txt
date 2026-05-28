@@ -1,0 +1,18 @@
+//Tutorial 2 - Steven Wang (22170804)
+
+first we declare the libraries that we wil use
+
+we create a alias for char, so that it is easier to change the data type in the future.
+we create a node which has DATA d inside as the package and has another node for pointing to next (the arrow)
+
+we create a empty node the head that will first point to nothing or null. We don't need to malloc the head because it is pointing to null.
+Then we will start creating the linked list, in here I rectrict the list to be max 5 character 5 list uisng i < 5 as the condition of the while loop.
+
+Next we create an empty node first that will be where the DATA d orr the package will be. For the body we use malloc because we want to save the value inside into a memory.
+Then I will ask user to input a character up to 5, but 0 is an exception because if the user enters a 0, it will exit the loop.
+
+If the input isn't 0, then it will continue, the system will save the input inside the node in the part of the body.
+After the input is saved, body->next = head will be pointed to whatever the head was pointing to, in this case for the first time, it will point to null.
+Then it will make the head point to the body or the data that was inputed by the user. For the nextt data inputed, it willl bbe pointed not to null.
+It will be pointed to the input that was the head before (1st input).
+ANd it will loop unntil 5 times or until the user pressed 0.

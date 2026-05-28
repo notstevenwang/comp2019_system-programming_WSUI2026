@@ -1,0 +1,5 @@
+What is a signal? How can it be handled (describe three possible responses to a signal)? Where do signals come from (identify three sources)?
+
+-> A signal is some sort of interruption of the process that is being run or exec.
+-> 3 possible responses to a signal would be Catch, Ignore, or Default Action
+So what it means is that 
